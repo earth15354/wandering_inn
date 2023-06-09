@@ -1,0 +1,29 @@
+name: csci1470
+
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - jupyterlab
+  - scikit-learn
+  - scipy
+  - pandas
+  - pandas-datareader
+  - matplotlib=3.5
+  - numpy
+  - pillow
+  - tqdm
+  - h5py
+  - pyyaml
+  - pandoc
+  - ipywidgets
+  - pip:
+      - setuptools>=41.2
+      - tensorflow==2.11
+      - tensorflow-probability
+      - torch
+      - torchvision
+      - torchaudio
+      - imageio==2.9
+      - kaggle
+      - gradescope_utils
